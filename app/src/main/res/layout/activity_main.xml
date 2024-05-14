@@ -10,60 +10,47 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/distancia"
-        android:layout_marginTop="32dp"
-
-        />
+        android:hint="@string/distance"
+        android:layout_marginTop="32dp" />
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/total_de_quilometros"
-        android:layout_marginTop="2dp"
-
-        />
+        android:text="@string/total_km"
+        android:layout_marginTop="2dp" />
 
     <EditText
+        android:id="@+id/edit_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/preco"
-        android:layout_marginTop="32dp"
-
-        />
+        android:hint="@string/price"
+        android:layout_marginTop="32dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/preco_por_litro"
-        android:layout_marginTop="2dp"
-
-
-        />
+        android:text="@string/price_per_liter"
+        android:layout_marginTop="2dp" />
 
     <EditText
+        android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/autonomia"
-        android:layout_marginTop="32dp"
-
-        />
+        android:hint="@string/autonomy"
+        android:layout_marginTop="32dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/kms_por_litro"
-        android:layout_marginTop="2dp"
-
-
-
-
-        />
+        android:text="@string/kms_per_liter"
+        android:layout_marginTop="2dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -72,12 +59,10 @@
         android:layout_marginTop="32dp"
         android:textAllCaps="true"
         android:gravity="center"
-        android:text="@string/gasto_total"
-
-
-        />
+        android:text="@string/total_cost" />
 
     <TextView
+        android:id="@+id/total_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="38sp"
@@ -85,20 +70,17 @@
         android:textAllCaps="true"
         android:gravity="center"
         android:textColor="@color/blue"
-        android:text="@string/valor_total"
-
-
-        />
+        android:text="@string/total_value" />
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calcular"
-        android:textSize="20dpsp"
+        android:text="@string/calculate"
+        android:textSize="20sp"
         android:padding="16dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/green"
-        />
+        android:backgroundTint="@color/green" />
 
 
 </LinearLayout>
