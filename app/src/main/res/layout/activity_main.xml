@@ -13,6 +13,7 @@
         android:id="@+id/distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:hint="@string/distance"
         android:layout_marginTop="32dp" />
 
@@ -28,6 +29,7 @@
         android:id="@+id/edit_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:hint="@string/price"
         android:layout_marginTop="32dp" />
 
@@ -42,6 +44,7 @@
         android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:hint="@string/autonomy"
         android:layout_marginTop="32dp" />
 
