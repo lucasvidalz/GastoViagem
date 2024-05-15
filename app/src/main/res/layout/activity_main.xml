@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/distance"
+        android:id="@+id/editDistance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -26,7 +26,7 @@
         android:layout_marginTop="2dp" />
 
     <EditText
-        android:id="@+id/edit_price"
+        android:id="@+id/editPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
@@ -41,7 +41,7 @@
         android:layout_marginTop="2dp" />
 
     <EditText
-        android:id="@+id/edit_autonomy"
+        android:id="@+id/editAutonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
@@ -65,7 +65,7 @@
         android:text="@string/total_cost" />
 
     <TextView
-        android:id="@+id/total_value"
+        android:id="@+id/totalValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="38sp"
@@ -74,9 +74,8 @@
         android:gravity="center"
         android:textColor="@color/blue"
         android:text="@string/total_value" />
-
     <Button
-        android:id="@+id/button_calculate"
+        android:id="@+id/buttonCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calculate"
@@ -84,6 +83,5 @@
         android:padding="16dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/green" />
-
 
 </LinearLayout>
